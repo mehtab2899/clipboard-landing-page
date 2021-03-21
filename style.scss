@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+	background: hsl(200, 11%, 95%);
+}
+
+.header {
+	background: #fff url("./images/bg-header-desktop.png") no-repeat;
+
+	&__img {
+		padding: 3rem 0;
+
+		img {
+			display: block;
+			margin: 0 auto;
+			width: 5rem;
+		}
+	}
+}
+
+.heading {
+	margin-bottom: 1rem;
+	text-align: center;
+
+	&__paragraph {
+		color: rgb(187, 194, 201);
+		width: 50%;
+		margin: 0 auto;
+		line-height: 1.5;
+	}
+}
+
+.btn {
+	text-align: center;
+	margin-top: 1.5rem;
+
+	&__primary {
+		padding: 0.5rem 1rem;
+		border-radius: 1rem;
+		border: none;
+		color: #fff;
+
+		&--ios {
+			background: hsl(171, 66%, 44%);
+		}
+
+		&--mac {
+			background: hsl(233, 100%, 69%);
+		}
+	}
+}
+
+.paragraph {
+	margin-top: 4rem;
+
+	&__heading {
+		text-align: center;
+	}
+
+	&__para {
+		padding-top: 1rem;
+		text-align: center;
+		color: rgb(187, 194, 201);
+		width: 50%;
+		margin: 0 auto;
+		line-height: 1.5;
+	}
+}
+
+.section {
+	margin: 4rem 0;
+
+	&__one {
+		display: flex;
+
+		&--img img {
+			width: 600px;
+		}
+		&--con {
+			margin-left: 3rem;
+
+			& div {
+				margin: 2rem 0;
+
+				& h6 {
+					font-size: 1.3rem;
+					color: gray;
+				}
+
+				& p {
+					width: 70%;
+					line-height: 1.5;
+				}
+			}
+		}
+	}
+}

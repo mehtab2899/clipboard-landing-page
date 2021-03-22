@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	list-style: none;
+	text-decoration: none;
 }
 
 html {
@@ -80,10 +82,9 @@ body {
 }
 
 .section {
-	margin: 4rem 0;
-
 	&__one {
 		display: flex;
+		margin: 4rem 0;
 
 		&--img img {
 			width: 600px;
@@ -103,6 +104,92 @@ body {
 					width: 70%;
 					line-height: 1.5;
 				}
+			}
+		}
+	}
+
+	&__two {
+		text-align: center;
+
+		& h2 {
+			margin-bottom: 1rem;
+		}
+
+		& p {
+			margin: 0 auto;
+			width: 50%;
+		}
+	}
+
+	&__three {
+		margin: 4rem 0 1rem 0;
+		text-align: center;
+
+		&--img img {
+			width: 45rem;
+		}
+	}
+
+	&__four {
+		text-align: center;
+
+		& h2 {
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	&__five {
+		display: flex;
+		text-align: center;
+		margin: 4rem 5rem;
+
+		& div {
+			& ion-icon {
+				font-size: 2rem;
+			}
+			& h4 {
+				margin: 1rem 0;
+			}
+
+			& p {
+				margin: 0 auto;
+				width: 90%;
+				font-size: 0.8rem;
+				line-height: 1.5;
+			}
+		}
+	}
+
+	&__six {
+		margin: 5rem 0;
+		&--img {
+			display: flex;
+			justify-content: space-evenly;
+		}
+
+		&--img img {
+			width: 6rem;
+		}
+	}
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	background: hsl(200, 7%, 92%);
+
+	& div {
+		padding: 1rem;
+
+		& a {
+			display: block;
+		}
+
+		& ul {
+			display: flex;
+
+			& li {
+				padding: 0 1rem;
 			}
 		}
 	}

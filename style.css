@@ -50,7 +50,7 @@ body {
 }
 
 .btn__primary {
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 1rem;
   border: none;
   color: #fff;
@@ -172,18 +172,32 @@ body {
   width: 6rem;
 }
 
+.section__seven {
+  padding-bottom: 5rem;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
   background: #e9ebec;
 }
 
+.footer__right {
+  float: right;
+}
+
 .footer div {
   padding: 1rem;
+  margin: 0 3rem;
+}
+
+.footer div img {
+  width: 3rem;
 }
 
 .footer div a {
   display: block;
+  color: gray;
 }
 
 .footer div ul {
